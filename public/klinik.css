@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-list ul li i{
+    color: #0463FA;
+}
+.l-right{
+    display: flex;
+}
+.h-btns i{
+    font-size: 20px;
+    color: #0463FA;
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+
+.container-fluid ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 20px;
+}
+.appoint{
+    list-style: none;
+    background: #0463FA; 
+    text-align: center; 
+}
+.appoint li a{
+    color: white;
+}
+.appoint li a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.container-one{
+    background-color: #0463FA;
+}
+.cont-one{
+    color: white;
+    padding: 200px 30px 200px 0;
+}
+
+.two{
+    padding: 5rem 0 2rem 0 ;
+}
+.img1{
+    display: flex;
+    justify-content: right;
+}
+.img1 img{
+    width: 70%;
+} 
+.img2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.img2 img{
+    width: 40%;
+    position: relative;
+    top:-160px;
+    left:-60px;
+    z-index:1 ;
+}
+.con-two h6{
+    color: rgba(77, 71, 71, 0.655);
+    padding-left: 2rem;
+}
+.con-two p{
+    color: rgba(77, 71, 71, 0.655);
+}
+.con-two ul li i{
+    color: #0463FA;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.con-two ul li{
+    color: rgba(77, 71, 71, 0.655);
+}
+.icon i{
+    font-size: 35px;
+    color: #0463FA;
+}
+.icon{
+    border-radius: 50%;
+}
+.card-h{
+    background-color: #e8edf5;
+    padding: 50px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.card-h:hover{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+}
+.cont-four{
+    background-color: #0463FA;
+    color: #e8edf5;
+    text-align: left;
+    padding: 60px;
+}
+.container-four{
+    background: #0463FA;
+}
+.four{
+    margin-top: 4rem;
+}
+.five{
+    margin-top: 4rem;
+}
+.cont-five{
+    text-align: center;
+}
+.hoverbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hoverbtns ul li{
+    border: none;
+    align-items: center;
+}
+.hoverbtns ul li i{
+    font-size: 30px;
+    color: #0463FA;
+    padding: 5px;
+    border-radius: 30%;
+}
+.hoverbtns ul li i:hover{
+    background-color: #0463FA;
+    color: #e8edf5;
+}
+
+
+.last{
+    background-color: #1B2C51;;
+    color: whitesmoke;
+    margin-top: 5rem;
+    padding: 5rem 0 5rem 0;
+}
+
+.address p i{
+    font-size: 20px;
+}
+.service p a{
+    color: white;
+    text-decoration: none;
+}
+.links p a{
+    color: #e8edf5;
+    text-decoration: none;
+}

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="klinik.css">
+</head>
+<body>
+<section class="one">
+    <div class="top-list">
+        <div class="l-left">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item" style="border: none;"><i class="bi bi-geo-alt-fill"></i>123 Street, New York, USA</li>
+                <li class="list-group-item" style="border: none;"><i class="bi bi-clock"></i>Mon - Fri : 09.00 AM - 09.00 PM</li>
+            </ul>
+        </div>
+        <div class="l-right">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item" style="border: none;"><i class="bi bi-telephone-fill"></i>+012 345 6789</li>
+            </ul>
+              <ul class="h-btns list-group list-group-horizontal">  
+                <li class="list-group-item" style="border: none;"><i class="bi bi-facebook"></i></li>
+                <li class="list-group-item" style="border: none;"><i class="bi bi-twitter"></i></li>
+                <li class="list-group-item" style="border: none;"><i class="bi bi-linkedin"></i></li>
+                <li class="list-group-item" style="border: none;"><i class="bi bi-instagram"></i></li>
+              </ul>      
+        </div>
+    </div>
+
+    <!--------------------------MENU-------------------------------------->
+
+    <div class="menu">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color: #0463FA;font-size: 30px;padding: 0 0 0 3rem;">
+                <i class="bi bi-building-fill-add"></i>Klinik</a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SERVCE</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Feature</a></li>
+                          <li><a class="dropdown-item" href="#">Our Doctor</a></li>
+                          <li><a class="dropdown-item" href="#">Appointment</a></li>
+                          <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                          <li><a class="dropdown-item" href="#">404 page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <ul class="appoint">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Appointment<i class="bi bi-arrow-right"></i></a>
+                    </li>
+                    </ul>
+                  </ul>
+            </div>
+          </nav>
+    </div>
+
+    <!------------------------------- PART-ONE ------------------------------------------->
+
+    <div class="container-one">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="cont-one">
+              <h1>Good Health is the Root <br>
+                  of All Happiness.</h1>
+                  <div class="row text-center">
+                    <div class="col-md-4">
+                      <h5>123</h5>
+                      <p>Expert Doctors</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h5>1234</h5>
+                      <p>Medical Stuff</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h5>12345</h5>
+                      <p>Total Patients</p>
+                    </div>
+                  </div>  
+            </div>
+          </div>
+          <div class="col">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/cardilogy.jpg" class="d-block w-100" alt="cardiology">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>CARDIOLOGY</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/neurology.jpg" class="d-block w-100" alt="neuorology">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>NEUROLOGY</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/pulmonary.jpg" class="d-block w-100" alt="pulmonary">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>PULMONARY</h2>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+</section>
+
+<!------------------------------- PART TWO -------------------------------------->
+
+<section class="two">
+  <div class="container-two">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="img1">
+          <img src="img/d-1.jpg" alt="d-1">
+        </div>
+        <div class="img2">
+          <img src="img/d-2.jpg" alt="d-2">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="con-two">
+          <h6>About Us</h6>
+          <h1>Why You Should Trust Us? Get<br>
+              Know About Us!</h1>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam<br>
+             et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna<br>
+             dolore erat amet</p>
+          <p>Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam<br>
+             rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit<br>
+             sanctus dolor eos.</p><br>
+             <ul class="list-group">
+              <li class="list-group-item" style="border: none;"><i class="bi bi-check2-circle"></i>Quality health care</li>
+              <li class="list-group-item" style="border: none;"><i class="bi bi-check2-circle"></i>Only Qualified Doctors</li>
+              <li class="list-group-item" style="border: none;"><i class="bi bi-check2-circle"></i>Medical Research Professionals</li>
+            </ul><br>
+            <button type="button" class="btn btn-primary btn-lg">READ MORE</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!------------------------ PART THREE ------------------------------------------->
+
+<section class="three">
+  <div class="container">
+  <div class="container-three">
+    <div class="cont-three text-center">
+      <h5 style="color: rgba(77, 71, 71, 0.655);">Services</h5>
+      <h1>Health Care Solutions</h1>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-4">
+        <div class="card-h text-center">
+          <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+            <i class="bi bi-heart-pulse-fill"></i>
+          </div>
+          <h1>Cardiology</h1>
+          <p>Erat ipsum justo amet duo et elitr dolor,<br>
+             est duo duo eos lorem sed diam stet<br>
+             diam sed stet.</p>
+          <button type="button" class="btn btn-outline-primary">READ MORE</button>   
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-h text-center">
+          <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+            <i class="bi bi-prescription2"></i>
+          </div>
+          <h1>Pulmonary</h1>
+          <p>Erat ipsum justo amet duo et elitr dolor,<br>
+             est duo duo eos lorem sed diam stet<br>
+             diam sed stet.</p>
+          <button type="button" class="btn btn-outline-primary">READ MORE</button>   
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-h text-center">
+          <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+            <i class="bi bi-lungs-fill"></i>
+          </div>
+          <h1>Neurology</h1>
+          <p>Erat ipsum justo amet duo et elitr dolor,<br>
+             est duo duo eos lorem sed diam stet<br>
+             diam sed stet.</p>
+          <button type="button" class="btn btn-outline-primary">READ MORE</button>   
+        </div>
+      </div>
+    </div>
+
+    <div class="row pt-5 text text-center">
+      <div class="col-md-4">
+        <div class="card-h text-center">
+          <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+            <i class="bi bi-activity"></i>
+          </div>
+          <h1>Dental Surgery</h1>
+          <p>Erat ipsum justo amet duo et elitr dolor,<br>
+             est duo duo eos lorem sed diam stet<br>
+             diam sed stet.</p>
+          <button type="button" class="btn btn-outline-primary">READ MORE</button>   
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-h text-center">
+          <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+            <i class="bi bi-person-wheelchair"></i>
+          </div>
+          <h1>Orthopedics</h1>
+          <p>Erat ipsum justo amet duo et elitr dolor,<br>
+             est duo duo eos lorem sed diam stet<br>
+             diam sed stet.</p>
+          <button type="button" class="btn btn-outline-primary">READ MORE</button>   
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-h text-center">
+          <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+            <i class="bi bi-capsule"></i>
+          </div>
+          <h1>Laboratory</h1>
+          <p>Erat ipsum justo amet duo et elitr dolor,<br>
+             est duo duo eos lorem sed diam stet<br>
+             diam sed stet.</p>
+          <button type="button" class="btn btn-outline-primary">READ MORE</button>   
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!----------------------------- PART FOUR ------------------------------------->
+
+<section class="four">
+  <div class="container-four">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="cont-four">
+          <h6>Features</h6>
+          <h1>Why Choose Us</h1><br>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet<br>
+             diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat<br>
+             amet</p>
+            <div class="row text-center">
+              <div class="col-md-6">
+                <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+                  <i class="bi bi-person-plus-fill"></i>
+                </div>
+                <h5>Experience<br>Doctors</h5>
+              </div>
+              <div class="col-md-6">
+                  <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+                    <i class="bi bi-shield-plus"></i>
+                  </div>
+                  <h5>Positive<br>Consultation</h5>
+              </div>
+            </div><br><br>
+            <div class="row text-center">  
+              <div class="col-md-6">
+                <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <h5>Quality<br>Services</h5>
+              </div>
+              <div class="col-md-6">  
+                <div class="icon d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width:65px;height:65px;">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <h5>24 Hours<br>Support</h5>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="img/DP.jpg" style="width: 100%;height:100vh;" alt="DP">
+      </div> 
+    </div>
+
+  </div>
+</section>
+
+<!------------------------------- PART FIVE ----------------------------------------->
+<section class="five">
+  <div class="container-five">
+    <div class="cont-five">
+      <h6 style="color: rgba(77, 71, 71, 0.655);">Doctors</h6>
+      <h1>Our Experience Doctors</h1>
+    </div>
+
+    <div class="container-fluid pt-5">
+    <div class="row">
+      <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/team-1.jpg" class="card-img-top" alt="team-1">
+            <div class="card-body text-center">
+              <h5>Doctor's Name</h5>
+              <p>Profession</p>
+              <div class="hoverbtns">
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item"><i class="bi bi-facebook"></i></li>
+                  <li class="list-group-item"><i class="bi bi-twitter"></i></li>
+                  <li class="list-group-item"><i class="bi bi-instagram"></i></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img src="img/team-2.jpg" class="card-img-top" alt="team-2">
+          <div class="card-body text-center">
+            <h5>Doctor's Name</h5>
+            <p>Profession</p>
+            <div class="hoverbtns">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><i class="bi bi-facebook"></i></li>
+                <li class="list-group-item"><i class="bi bi-twitter"></i></li>
+                <li class="list-group-item"><i class="bi bi-instagram"></i></li>
+              </ul>                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img src="img/team-3.jpg" class="card-img-top" alt="team-3">
+          <div class="card-body text-center">
+            <h5>Doctor's Name</h5>
+            <p>Profession</p>
+            <div class="hoverbtns">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><i class="bi bi-facebook"></i></li>
+                <li class="list-group-item"><i class="bi bi-twitter"></i></li>
+                <li class="list-group-item"><i class="bi bi-instagram"></i></li>
+              </ul>                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img src="img/team-4.jpg" class="card-img-top" alt="team-4">
+          <div class="card-body text-center">
+            <h5>Doctor's Name</h5>
+            <p>Profession</p>
+            <div class="hoverbtns">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><i class="bi bi-facebook"></i></li>
+                <li class="list-group-item"><i class="bi bi-twitter"></i></li>
+                <li class="list-group-item"><i class="bi bi-instagram"></i></li>
+              </ul>                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!---------------------------- LAST PART ----------------------------------->
+
+<section class="last">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="address">
+              <h5>Address</h5>
+              <p class="mb-2"><i class="bi bi-geo-alt-fill"></i>123 Street, New York, USA</p>
+              <p class="mb-2"><i class="bi bi-telephone-fill"></i>+012 345 67890</p>
+              <p class="mb-2"><i class="bi bi-envelope-fill"></i>name@domain.com</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service">
+              <h5>Services</h5>
+              <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Cardiology</a></p>
+              <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Pulmonary</a></p>
+              <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Neurology</a></p>
+              <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Orthopedics</a></p>
+              <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Laboratory</a></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="links">
+              <h5>Quick Links</h5>
+                <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>About Us</a></p>
+                <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Contact Us</a></p>
+                <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Our Services</a></p>
+                <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Tearms & Conditions</a></p>
+                <p class="mb-2"><a href="#"><i class="bi bi-chevron-right"></i>Support</a></p>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="news">
+              <h5>Newsletter</h5>
+              <p class="mb-2">Dolor amet sit justo amet elitr clita<br>
+                 ipsum elitr est.</p>
+                 <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-primary" type="button" id="button-addon2">Button</button>
+                </div>                
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+</body>
+</html>
